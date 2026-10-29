@@ -1,0 +1,7 @@
+retrieval:
+  method: bm25
+  chunk_chars: 500
+  overlap_chars: 100
+  top_k: 5
+  min_score: 0.0
+  tokenizer: simple
