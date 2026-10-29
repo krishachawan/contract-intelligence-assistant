@@ -1,146 +1,223 @@
-﻿# Contract Intelligence Assistant — Evaluation Report
+﻿# Contract Intelligence Assistant --- Evaluation Report
 
-## 1. Summary
+## 1. Project Summary
 
-This project implements a contract evidence retrieval system using BM25
-ranking, overlapping character-based chunks, and source-document offsets.
-It evaluates retrieval against the selected CUAD portion of LegalBench-RAG-mini.
+The Contract Intelligence Assistant is a retrieval-based tool for
+answering natural-language questions about a limited collection of
+contracts. It retrieves ranked text passages from the indexed corpus and
+reports the source document and character offsets so that users can
+inspect the supporting evidence.
 
-The benchmark contains 194 queries: 140 training queries and 54 held-out
-test queries. The selected contracts comprise 29 referenced documents.
-The system returns ranked evidence passages; retrieval quality remains
-a significant limitation.
+The implementation uses BM25 retrieval, configurable character-based
+chunking, a command-line interface, a Streamlit interface, evaluation
+scripts, and automated tests.
 
-## 2. System design
+## 2. Scope and Dataset
 
-- **Corpus selection:** Index contracts referenced by the selected benchmark.
-- **Chunking:** Split documents into character-based chunks with configurable
-  overlap while preserving source offsets.
-- **Retrieval:** Rank candidate passages using BM25.
-- **Evidence output:** Return document identifiers, offsets, scores, and text.
-- **Interface:** Provide a command-line interface and Streamlit application.
-- **Evaluation:** Measure character-level precision, recall, and F1 at k=1,3,5.
+The benchmark loader selected **194 queries** and identified **29 unique
+contracts** referenced by those queries. Dataset validation reported:
 
-## 3. Evaluation setup
+-   Selected benchmark queries: 194
+-   Unique referenced contracts: 29
+-   Contract files available in the downloaded corpus: 462
+-   Missing referenced contracts: 0
+-   Gold answer spans checked: 272
+-   Gold span mismatches: 0
 
-- Benchmark: LegalBench-RAG-mini, CUAD subset.
-- Queries selected using the project benchmark-selection procedure.
-- Split: the split labels produced by the project's benchmark loader.
-- Training queries: 140.
-- Held-out test queries: 54.
-- Referenced contracts indexed: 29.
-- Gold spans checked during data validation: 272.
-- Missing referenced contracts: 0.
-- Span mismatches reported by validation: 0.
-- Test evaluation: one recorded run for the selected configuration.
+The benchmark evaluation used 140 training queries and 54 held-out test
+queries. An additional set of 36 manually authored unanswerable
+questions was used to examine abstention behavior (28 training questions
+and 8 test questions).
 
-Test results were not used to select the configuration. The retrieval
-results are weak and should not be interpreted as demonstrating reliable
-legal-answering performance.
+The data validation check confirmed that all referenced contracts were
+found and that the 272 checked gold spans matched the source text. The
+reported retrieval experiments used the selected benchmark contracts.
 
-## 4. Retrieval results
+## 3. System Design
 
-### Training experiments
+### 3.1 Document loading and chunking
 
-The following table reports the measured training P@5, R@5, and F1@5.
-Values are proportions expressed as percentages.
+Contract text is loaded from the corpus and split into character-based
+chunks. Each chunk retains its document identifier and start/end
+character offsets. These offsets allow retrieved passages to be traced
+back to their location in the source contract.
 
-| Configuration | Chunk chars | Overlap | P@5 | R@5 | F1@5 |
-|---|---:|---:|---:|---:|---:|
-| Baseline | 1200 | 200 | 1.35% | 13.41% | 2.38% |
-| Experiment 1 | 800 | 100 | 1.25% | 6.14% | 1.97% |
-| Experiment 2 | 1600 | 200 | 1.81% | 23.30% | 3.23% |
-| Experiment 3 | 1200 | 300 | 1.72% | 14.79% | 2.93% |
-| Experiment 4 | 800 | 200 | 0.89% | 5.53% | 1.43% |
-| Experiment 5 | 1600 | 300 | 1.92% | 24.62% | 3.42% |
+The tested configurations varied chunk length and overlap. The baseline
+used 1,200-character chunks with 200-character overlap. The best
+training configuration among the tested chunking experiments used
+1,600-character chunks with 300-character overlap.
 
-Experiment 5 had the strongest training P@5, R@5, and F1@5 among these
-six configurations before the improvement script was introduced.
-The improvement script's recorded selection should be checked in
-`artifacts/improvement_history.json` after it runs.
+### 3.2 Retrieval
 
-### Held-out test results
+The retriever uses BM25 to rank chunks against a natural-language query.
+It returns the document identifier, offsets, passage text, and retrieval
+score. A query-specific amendment-number boost is also implemented when
+the query specifies an amendment and the chunk contains an exact
+amendment-number match plus sufficient contextual term overlap.
 
-| Metric | @1 | @3 | @5 |
-|---|---:|---:|---:|
-| Precision | 0.22% | 0.79% | 0.66% |
-| Recall | 1.85% | 12.11% | 15.61% |
-| F1 | 0.39% | 1.43% | 1.23% |
+### 3.3 Interfaces and evaluation
 
-These results indicate that the current retrieval configuration frequently
-fails to return the annotated evidence spans. The system is not suitable
-for unsupervised legal decision-making.
+The project provides: - `cli.py` for command-line queries - `app.py` for
+the Streamlit interface - `evaluate.py` and supporting scripts for
+benchmark evaluation - YAML configuration files for baseline and
+experimental retrieval settings - Automated tests for core retrieval and
+evaluation behavior
 
-## 5. Iteration history
+## 4. Experimental Setup
 
-Six chunking configurations were compared:
+The baseline configuration used 1,200-character chunks, 200-character
+overlap, and top-5 retrieval. Five chunking configurations were
+compared. The reported metrics are passage-level character precision,
+recall, and F1 at rank 5, as emitted by the project evaluator.
 
-1. Baseline: 1200-character chunks, 200-character overlap.
-2. Experiment 1: 800-character chunks, 100-character overlap.
-3. Experiment 2: 1600-character chunks, 200-character overlap.
-4. Experiment 3: 1200-character chunks, 300-character overlap.
-5. Experiment 4: 800-character chunks, 200-character overlap.
-6. Experiment 5: 1600-character chunks, 300-character overlap.
+The experiment with 1,600-character chunks and 300-character overlap
+achieved the strongest training F1@5 among the tested configurations.
+The held-out test evaluation was subsequently run using
+`config/best.yaml`.
 
-The experiments varied chunk size and overlap while keeping the retrieval
-method as BM25. Experiment 5 achieved the highest training F1@5 among the
-six measured configurations. This is a limited configuration search,
-not evidence of broad model improvement.
+## 5. Results
 
-The one-command loop is implemented in `scripts/improve.py`. Its saved
-history and selected configuration should be verified after execution.
+### 5.1 Training experiments
 
-## 6. Error analysis
+  ---------------------------------------------------------------------------------
+  Configuration   Chunk length      Overlap   Precision@5     Recall@5         F1@5
+  --------------- ------------ ------------ ------------- ------------ ------------
+  Baseline               1,200          200         1.35%       13.41%        2.38%
 
-A training error-analysis run found 115 of 140 queries with incomplete
-Recall@5. Several queries retrieved the correct contract but not the
-specific annotated evidence passage.
+  Experiment 1             800          100         1.25%        6.14%        1.97%
 
-For example, a governing-law query for the BicycleTX Ltd service agreement
-had gold offsets 53956–54252. The correct contract appeared in the top
-results, but the returned passages did not overlap the gold span.
+  Experiment 2           1,600          200         1.81%       23.30%        3.23%
 
-Inspection confirmed that the source clause existed at the annotated
-offsets and that chunking generated a chunk containing the clause.
-This indicates a passage-ranking or evidence-selection limitation rather
-than a missing source document for that example.
+  Experiment 3           1,200          300         1.72%       14.79%        2.93%
 
-## 7. Abstention and unanswerable queries
+  Experiment 4             800          200         0.89%        5.53%        1.43%
 
-The unanswerable-question file currently fails JSON parsing with an
-"Extra data" error. Therefore, reliable abstention metrics have not been
-established and are not reported here. The question contents must be
-preserved while the file format is repaired, and the fixed set must remain
-unchanged during tuning.
+  Experiment 5           1,600          300         1.92%       24.62%        3.42%
+  ---------------------------------------------------------------------------------
 
-The current held-out metrics measure answerable-query evidence retrieval;
-they do not establish that the system abstains correctly on unanswerable
-questions. This remains incomplete validation.
+Experiment 5 produced the highest training F1@5 in this comparison.
+These values are training results and should not be interpreted as
+held-out performance.
 
-## 8. LLM usage
+### 5.2 Held-out test results
 
-The measured retrieval experiments described here use BM25 and do not
-establish a measured benefit from a generative language model. No claims
-about LLM accuracy, latency, or cost are made without corresponding
-measurements.
+Using `config/best.yaml`, evaluation on the 54 held-out benchmark
+queries reported:
 
-## 9. Limitations and next steps
+  Metric     Precision   Recall      F1
+  -------- ----------- -------- -------
+  @1             0.22%    1.85%   0.39%
+  @3             0.79%   12.11%   1.43%
+  @5             0.66%   15.61%   1.23%
 
-- Improve ranking of relevant clauses within the correct contract.
-- Evaluate abstention using the frozen unanswerable-question set.
-- Verify that all reported evaluation metrics use the intended character
-  overlap definitions.
-- Measure latency and resource use before making deployment claims.
-- Add stronger regression tests for offsets, ranking, and abstention.
-- Require human legal review before relying on retrieved contract evidence.
+These results indicate that retrieval quality remains limited. The top-5
+recall is higher than at rank 1, but precision and F1 are low. The
+training-to-test difference also shows that the best training
+configuration does not translate into strong held-out results.
 
-## 10. Reproducibility artifacts
+### 5.3 Unanswerable-query evaluation
 
-- Configurations: `config/`
-- Training metrics and per-query rows: `artifacts/`
-- Held-out test metrics: `artifacts/final_test.json`
-- Held-out test per-query results: `artifacts/final_test_rows.json`
-- Data validation: `scripts/validate_data.py`
-- Error analysis: `scripts/error_analysis.py`
-- Improvement loop: `scripts/improve.py`
-- Tests: `python -m pytest -q`
+The initial abstention evaluation covered 36 manually authored
+unanswerable questions. With the evaluated configuration, the system
+abstained on **0 of 36 questions (0.0%)** and returned passages for all
+36 questions.
+
+  Split        Questions   Abstained   Abstention rate
+  ---------- ----------- ----------- -----------------
+  Training            28           0              0.0%
+  Test                 8           0              0.0%
+  Total               36           0              0.0%
+
+This is a failed abstention result, not evidence of successful
+rejection. The current BM25 score alone has not been shown to reliably
+distinguish answerable from unanswerable queries. A score threshold must
+be calibrated using training data and validated on held-out questions
+before the system can claim effective abstention. BM25 scores can also
+be negative, so a threshold of zero should not be treated as a universal
+relevance boundary.
+
+## 6. Data Integrity and Validation
+
+The dataset validation script reported no missing referenced contracts
+and no mismatches across the 272 checked gold spans. The project also
+includes data-processing and diagnostic scripts for inspecting chunking
+and retrieval behavior.
+
+The data validation results support the integrity of the checked source
+offsets. They do not, by themselves, establish that retrieval is
+accurate or that all possible leakage and near-duplicate risks have been
+eliminated. Those concerns should remain explicit in future evaluation.
+
+## 7. Automated Tests and Execution
+
+The automated test suite was run after correcting the score-filter
+behavior. The latest recorded result was:
+
+**4 passed**
+
+The command-line help check also succeeded. A sample CLI query returned
+ranked passages with source paths and character offsets. However, the
+sample query returned passages from different contracts, illustrating
+that successful execution does not guarantee answer relevance.
+
+Typical commands:
+
+``` powershell
+python -m pip install -r requirements.txt
+python -m pytest -q
+python cli.py "What is the expiration date of the contract?" --config config/final.yaml
+streamlit run app.py
+```
+
+The exact configuration and data paths should be checked against the
+README before running in a fresh environment.
+
+## 8. Limitations
+
+1.  **Low retrieval precision and F1:** the measured held-out results
+    indicate that many returned character ranges do not overlap the gold
+    answer spans.
+2.  **Abstention is not effective:** the system returned passages for
+    all 36 unanswerable questions in the measured evaluation.
+3.  **Training/test performance differs:** the best training
+    configuration performed worse on held-out queries.
+4.  **BM25 is lexical:** lexical overlap can rank passages that share
+    terms with a query but do not answer it.
+5.  **Limited evaluation sample:** the held-out benchmark contains 54
+    queries, and the unanswerable test split contains 8 questions;
+    results on these samples may not generalize to broader contract
+    collections.
+6.  **Further validation needed:** successful tests and valid source
+    offsets do not establish semantic answer correctness, robust
+    abstention, or production readiness.
+
+## 9. Recommended Next Steps
+
+-   Inspect the highest-ranked false positives and improve
+    query-to-passage relevance.
+-   Calibrate abstention using training-only answerable and unanswerable
+    examples, keeping the test split untouched until final evaluation.
+-   Consider a separate relevance classifier or semantic reranker rather
+    than relying on a raw BM25 score threshold alone.
+-   Add tests for answerable and unanswerable queries, including
+    negative BM25 scores and queries with no corpus support.
+-   Re-run the held-out evaluation after any change and report the new
+    metrics without replacing the earlier results.
+-   Verify the exact data split procedure and document
+    duplicate/near-duplicate checks before claiming leakage-free
+    evaluation.
+
+## 10. Conclusion
+
+The project provides a functioning BM25-based contract passage retrieval
+prototype with source identifiers, character offsets, a CLI, a Streamlit
+interface, configurable experiments, and passing core tests. Data
+validation found all 29 referenced contracts and verified 272 gold
+spans.
+
+The measured retrieval results are nevertheless weak, and the current
+abstention evaluation rejected none of the 36 unanswerable questions.
+The system should therefore be presented as a working prototype with
+documented evaluation limitations---not as a reliably accurate
+contract-answering or abstention system. Improving relevance ranking and
+validating abstention on held-out data are the main priorities.
