@@ -1,0 +1,24 @@
+{
+  "experiment": "best",
+  "split": "test",
+  "test_queries": 54,
+  "metrics": {
+    "precision@1": 0.00217556551597599,
+    "recall@1": 0.018518518518518517,
+    "f1@1": 0.0038936973705814746,
+    "precision@3": 0.00791851019499877,
+    "recall@3": 0.121111630564646,
+    "f1@3": 0.014307251741163133,
+    "precision@5": 0.006640313959422196,
+    "recall@5": 0.15607481911310583,
+    "f1@5": 0.012254940860890719
+  },
+  "config": {
+    "method": "bm25",
+    "chunk_chars": 1600,
+    "overlap_chars": 300,
+    "top_k": 5,
+    "min_score": 0.0,
+    "tokenizer": "simple"
+  }
+}

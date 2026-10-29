@@ -1,0 +1,362 @@
+[
+  {
+    "id": "unans-01",
+    "query": "What is the annual salary of the company's chief executive officer?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 26.30151373903635,
+    "top_source": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-02",
+    "query": "What is the employee's home address?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 9.627262241229136,
+    "top_source": "cuad/DeltathreeInc_19991102_S-1A_EX-10.19_6227850_EX-10.19_Co-Branding Agreement_ Service Agreement.txt"
+  },
+  {
+    "id": "unans-03",
+    "query": "What is the contract signatory's personal phone number?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 13.404995439133582,
+    "top_source": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-04",
+    "query": "What is the weather policy for outdoor filming next Tuesday?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 15.356947629630982,
+    "top_source": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt"
+  },
+  {
+    "id": "unans-05",
+    "query": "What is the budget for the next season if it has not been stated?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 20.46983997994702,
+    "top_source": "cuad/BONTONSTORESINC_04_20_2018-EX-99.3-AGENCY AGREEMENT.txt"
+  },
+  {
+    "id": "unans-06",
+    "query": "What are the streaming platform's current monthly subscriber numbers?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 13.768017086113094,
+    "top_source": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt"
+  },
+  {
+    "id": "unans-07",
+    "query": "What is the audience rating of the show in Brazil?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 18.72287296038143,
+    "top_source": "cuad/MJBIOTECH,INC_12_06_2018-EX-99.01-JOINT VENTURE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-08",
+    "query": "What is the name of the actor's personal accountant?",
+    "split": "test",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 19.837717407281048,
+    "top_source": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-09",
+    "query": "What is the exact production schedule for an unrelated future series?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 15.398329154322202,
+    "top_source": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt"
+  },
+  {
+    "id": "unans-10",
+    "query": "What is the market share of the distributor this quarter?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 21.283096806192848,
+    "top_source": "cuad/MJBIOTECH,INC_12_06_2018-EX-99.01-JOINT VENTURE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-11",
+    "query": "What is the password for the production team's shared account?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 15.561110803351433,
+    "top_source": "cuad/IGENEBIOTECHNOLOGYINC_05_13_2003-EX-1-JOINT VENTURE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-12",
+    "query": "What is the bank account PIN of the licensee?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 18.74743089601679,
+    "top_source": "cuad/PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.txt"
+  },
+  {
+    "id": "unans-13",
+    "query": "What is the private medical history of the director?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 18.51238301516093,
+    "top_source": "cuad/KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTION AGREEMENT.txt"
+  },
+  {
+    "id": "unans-14",
+    "query": "What is the social security number of a cast member?",
+    "split": "test",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 17.277493589602496,
+    "top_source": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt"
+  },
+  {
+    "id": "unans-15",
+    "query": "What is the current exchange rate used by the finance department?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 19.128782525852102,
+    "top_source": "cuad/PREMIERBIOMEDICALINC_05_14_2020-EX-10.2-INTELLECTUAL PROPERTY AGREEMENT.txt"
+  },
+  {
+    "id": "unans-16",
+    "query": "What is the current price of advertising inventory on a third-party website?",
+    "split": "test",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 18.50320196173621,
+    "top_source": "cuad/HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement.txt"
+  },
+  {
+    "id": "unans-17",
+    "query": "What are the confidential terms of a different agreement not in this corpus?",
+    "split": "test",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 21.328447130666287,
+    "top_source": "cuad/Loop Industries, Inc. - Marketing Agreement.txt"
+  },
+  {
+    "id": "unans-18",
+    "query": "What is the production team's live location right now?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 14.449086168348842,
+    "top_source": "cuad/PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.txt"
+  },
+  {
+    "id": "unans-19",
+    "query": "What is the personal email password of the producer?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 20.1635098096961,
+    "top_source": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-20",
+    "query": "What is the number of followers on the actor's private social media account?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 25.124175492674844,
+    "top_source": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt"
+  },
+  {
+    "id": "unans-21",
+    "query": "What is the result of an unannounced internal employee performance review?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 16.37287145087482,
+    "top_source": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-22",
+    "query": "What is the exact cost of a future marketing campaign not mentioned here?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 20.855408526052308,
+    "top_source": "cuad/VITAMINSHOPPECOMINC_09_13_1999-EX-10.26-SPONSORSHIP AGREEMENT.txt"
+  },
+  {
+    "id": "unans-23",
+    "query": "What is the company's current stock price?",
+    "split": "test",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 11.44490427073147,
+    "top_source": "cuad/SUCAMPOPHARMACEUTICALS,INC_11_04_2015-EX-10.2-STRATEGIC ALLIANCE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-24",
+    "query": "What is the current weather at the filming location?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 18.491838376918164,
+    "top_source": "cuad/CANOPETROLEUM,INC_12_13_2007-EX-10.1-Sponsorship Agreement.txt"
+  },
+  {
+    "id": "unans-25",
+    "query": "What is the personal home address of the contract's witness?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 19.11486552554918,
+    "top_source": "cuad/VITAMINSHOPPECOMINC_09_13_1999-EX-10.26-SPONSORSHIP AGREEMENT.txt"
+  },
+  {
+    "id": "unans-26",
+    "query": "What is the private bank balance of the content creator?",
+    "split": "test",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 18.15328011116771,
+    "top_source": "cuad/PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.txt"
+  },
+  {
+    "id": "unans-27",
+    "query": "What is the full text of an agreement that is not included in the corpus?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 22.629298388354457,
+    "top_source": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-28",
+    "query": "What is the current availability of a cinema screen in Mumbai?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 18.027870888743834,
+    "top_source": "cuad/MJBIOTECH,INC_12_06_2018-EX-99.01-JOINT VENTURE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-29",
+    "query": "What is the internal API key used by the streaming service?",
+    "split": "test",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 19.30295737630766,
+    "top_source": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-30",
+    "query": "What is the current salary of every employee in the company?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 22.618613918875138,
+    "top_source": "cuad/BONTONSTORESINC_04_20_2018-EX-99.3-AGENCY AGREEMENT.txt"
+  },
+  {
+    "id": "unans-31",
+    "query": "What is the exact runtime of a future episode that has not been produced?",
+    "split": "test",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 17.464599689390127,
+    "top_source": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-32",
+    "query": "What is the personal passport number of the director?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 18.923336055609518,
+    "top_source": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+  },
+  {
+    "id": "unans-33",
+    "query": "What is the latest view count on a platform outside the agreement?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 19.20534177655465,
+    "top_source": "cuad/BONTONSTORESINC_04_20_2018-EX-99.3-AGENCY AGREEMENT.txt"
+  },
+  {
+    "id": "unans-34",
+    "query": "What are the terms of a verbal promise not recorded in the contract?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 24.59163634224889,
+    "top_source": "cuad/PREMIERBIOMEDICALINC_05_14_2020-EX-10.2-INTELLECTUAL PROPERTY AGREEMENT.txt"
+  },
+  {
+    "id": "unans-35",
+    "query": "What is the precise location of a private company meeting?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 22.529082043098178,
+    "top_source": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt"
+  },
+  {
+    "id": "unans-36",
+    "query": "What is the content of a deleted contract that is not in the indexed corpus?",
+    "split": "train",
+    "expected_answerable": false,
+    "abstained": false,
+    "returned_passages": 5,
+    "top_score": 27.07970106302674,
+    "top_source": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "config": {
+    "method": "bm25",
+    "chunk_chars": 800,
+    "overlap_chars": 200,
+    "top_k": 5,
+    "min_score": 0.0,
+    "tokenizer": "simple"
+  },
+  "train": {
+    "n": 140,
+    "abstained": 0,
+    "p@1": 0.0,
+    "r@1": 0.0,
+    "f1@1": 0.0,
+    "p@3": 0.005722379949828589,
+    "r@3": 0.022220611725135897,
+    "f1@3": 0.008257774196898849,
+    "p@5": 0.008902739857356476,
+    "r@5": 0.055335031802750734,
+    "f1@5": 0.014336556107977572
+  },
+  "n_indexed_docs": 29,
+  "n_chunks": 2348,
+  "test_queries": 54,
+  "note": "Training metrics only; test data has not been evaluated.",
+  "experiment": "experiment4"
+}

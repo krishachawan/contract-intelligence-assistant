@@ -1,0 +1,483 @@
+[
+  {
+    "query": "Consider the Service Agreement between BicycleTX Ltd and Nigel Crockett for Chief Business Officer Position; What is the governing law for this contract?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/Loop Industries, Inc. - Marketing Agreement.txt",
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+      "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 0,
+        "end": 1413,
+        "text": "Exhibit 10.11\n\nDATED 26 September 2019\n\nBicycleTX Ltd\n\nand\n\nNigel Crockett\n\n___________________________________________________\n\nSERVICE AGREEMENT\n\n___________________________________________________\n\n\n\n\n\nTHIS AGREEMENT is made on 26 September 2019\n\nBETWEEN:\n\n(1) BICYCLETX LIMITED a company incorporated under the laws of England and Wales (Company Number 11036101) whose registered office is at Building 900 Babraham Research Campus, Babraham, Cambridgeshire, CB22 3AT, United Kingdom (the \"Company"
+      },
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 56466,
+        "end": 57041,
+        "text": "or\n\n(d) obtains Control of BTL in any other way, including but not limited to by way of a merger.\n\n19\n\n\n\n\n\nTHIS AGREEMENT has been executed and delivered as a deed by or on behalf of the parties on the date written at the top of page 1.\n\nExecuted as a Deed by BICYCLETX LIMITED acting by a director:\n\n/s/ Kevin Lee (Director) in the presence of: /s/ Phil Jeffrey Witness Name: Phil Jeffrey Witness Address:\n\n20\n\n\n\n\n\nExecuted as a Deed by NIGEL CROCKETT:\n\n/s/ Nigel Crockett (Nigel Crockett) in the pr"
+      },
+      {
+        "doc_id": "cuad/Loop Industries, Inc. - Marketing Agreement.txt",
+        "start": 25699,
+        "end": 27299,
+        "text": " terms and conditions of this Agreement. 7.7 Severability. Should any clause, sentence, section, article or paragraph of this Agreement judicially be declared to be invalid, unenforceable, or void, such decision shall not have the effect of invalidating or voiding the remainder of this Agreement. 7.8 Assignment. This Agreement shall inure to the benefit of, and shall be binding upon, the Parties and their respective successors and assigns, but neither Party may assign this Agreement without the "
+      },
+      {
+        "doc_id": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+        "start": 4797,
+        "end": 6397,
+        "text": "hts Act 1996 commenced on 29 October 2013. 3. Pre-Conditions and Warranties The Executive's employment under this Agreement is conditional upon the Executive having produced to the Company for inspection original documents proving the Executive's right to work lawfully in the United Kingdom.\n\n3\n\n\n\n\n\n4. Duties 4.1 The Executive shall serve as Chief Medical Officer and Senior Vice President, Development (reporting to Rick Winningham) or in such other role as the Company may determine. 4.2 During t"
+      },
+      {
+        "doc_id": "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 35615,
+        "end": 36687,
+        "text": "sonably withheld, conditioned or  delayed.     10.6 Essential Part of Bargain. The Parties acknowledge that the disclaimers and limitations set forth in this Section 10 are an essential  element of this Agreement between the Parties and that the Parties would not have entered into this Agreement without such disclaimers and  limitations.     11. MISCELLANEOUS.     11.1 Governing Law and Jurisdiction. This Agreement shall be governed by and interpreted under the laws of the State of Florida, USA,"
+      }
+    ]
+  },
+  {
+    "query": "Consider the Service Agreement between BicycleTX Ltd and Nigel Crockett for Chief Business Officer Position; Are there any exceptions to competitive restrictions in this contract?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTION AGREEMENT.txt",
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLY AGREEMENT.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 0,
+        "end": 1413,
+        "text": "Exhibit 10.11\n\nDATED 26 September 2019\n\nBicycleTX Ltd\n\nand\n\nNigel Crockett\n\n___________________________________________________\n\nSERVICE AGREEMENT\n\n___________________________________________________\n\n\n\n\n\nTHIS AGREEMENT is made on 26 September 2019\n\nBETWEEN:\n\n(1) BICYCLETX LIMITED a company incorporated under the laws of England and Wales (Company Number 11036101) whose registered office is at Building 900 Babraham Research Campus, Babraham, Cambridgeshire, CB22 3AT, United Kingdom (the \"Company"
+      },
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 56466,
+        "end": 57041,
+        "text": "or\n\n(d) obtains Control of BTL in any other way, including but not limited to by way of a merger.\n\n19\n\n\n\n\n\nTHIS AGREEMENT has been executed and delivered as a deed by or on behalf of the parties on the date written at the top of page 1.\n\nExecuted as a Deed by BICYCLETX LIMITED acting by a director:\n\n/s/ Kevin Lee (Director) in the presence of: /s/ Phil Jeffrey Witness Name: Phil Jeffrey Witness Address:\n\n20\n\n\n\n\n\nExecuted as a Deed by NIGEL CROCKETT:\n\n/s/ Nigel Crockett (Nigel Crockett) in the pr"
+      },
+      {
+        "doc_id": "cuad/KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTION AGREEMENT.txt",
+        "start": 11506,
+        "end": 12955,
+        "text": "ation of Professionals and customers regarding the Product and the market or funded by unrestricted educational grants, including educational programs and seminars and continuing medical education materials.\n\nSection 1.36 \"Effective Date\" has the meaning set forth in the preamble to this Agreement.\n\nSection 1.37 \"Evaluation Period\" has the meaning set forth in Section 13.2.\n\nSection 1.38 \"Executive Officers\" means the Chief Operating Officer of Depomed (or, if there is no such officer, its Presi"
+      },
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 41263,
+        "end": 42554,
+        "text": "inesses and which is not competitive with the Restricted Business, nor from continuing to deal with any Prospective Customer or Restricted Customer where you either have a social or business relationship unconnected to the Company and that relationship does not compete with the Restricted Business.\n\n14.5 The restrictions contained in paragraph 14.2 above are held by the Company for itself and on trust for any other Group Company and shall be enforceable by the Company on their behalf or by any G"
+      },
+      {
+        "doc_id": "cuad/FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLY AGREEMENT.txt",
+        "start": 18043,
+        "end": 19355,
+        "text": "intentions of all parties.\n\n29. Multiple Counterparts. This Agreement may be executed in multiple counterparts, each of which shall be deemed an original.\n\n30. Waiver. Any waiver by either party to be enforceable must be in writing and no waiver by either party shall constitute a continuing waiver.\n\n31. Cross References. References in this Agreement to Articles, Sections, Exhibits, or Schedules shall be deemed to be references to Articles, Sections, Exhibits, and Schedules of this Agreement unle"
+      }
+    ]
+  },
+  {
+    "query": "Consider the Service Agreement between BicycleTX Ltd and Nigel Crockett for Chief Business Officer Position; Does this contract include any right of first refusal, right of first offer, or right of first negotiation?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/IGENEBIOTECHNOLOGYINC_05_13_2003-EX-1-JOINT VENTURE AGREEMENT.txt",
+      "cuad/SUCAMPOPHARMACEUTICALS,INC_11_04_2015-EX-10.2-STRATEGIC ALLIANCE AGREEMENT.txt",
+      "cuad/FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLY AGREEMENT.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 0,
+        "end": 1413,
+        "text": "Exhibit 10.11\n\nDATED 26 September 2019\n\nBicycleTX Ltd\n\nand\n\nNigel Crockett\n\n___________________________________________________\n\nSERVICE AGREEMENT\n\n___________________________________________________\n\n\n\n\n\nTHIS AGREEMENT is made on 26 September 2019\n\nBETWEEN:\n\n(1) BICYCLETX LIMITED a company incorporated under the laws of England and Wales (Company Number 11036101) whose registered office is at Building 900 Babraham Research Campus, Babraham, Cambridgeshire, CB22 3AT, United Kingdom (the \"Company"
+      },
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 56466,
+        "end": 57041,
+        "text": "or\n\n(d) obtains Control of BTL in any other way, including but not limited to by way of a merger.\n\n19\n\n\n\n\n\nTHIS AGREEMENT has been executed and delivered as a deed by or on behalf of the parties on the date written at the top of page 1.\n\nExecuted as a Deed by BICYCLETX LIMITED acting by a director:\n\n/s/ Kevin Lee (Director) in the presence of: /s/ Phil Jeffrey Witness Name: Phil Jeffrey Witness Address:\n\n20\n\n\n\n\n\nExecuted as a Deed by NIGEL CROCKETT:\n\n/s/ Nigel Crockett (Nigel Crockett) in the pr"
+      },
+      {
+        "doc_id": "cuad/IGENEBIOTECHNOLOGYINC_05_13_2003-EX-1-JOINT VENTURE AGREEMENT.txt",
+        "start": 39408,
+        "end": 41008,
+        "text": "o provide the services set forth in Article 11.1.4 for a period not to exceed 24 months from the date Igene receives such notice.\n\n11.3. In the event of a contradiction between the terms of this Article 11 and any Support Services Agreement, the terms of the Support Services Agreement shall govern.\n\n12. RIGHT OF FIRST REFUSAL; TERMINATION OF THE JOINT VENTURE AFTER THE EFFECTIVE DATE.\n\n12.1. RIGHT OF FIRST REFUSAL; TAG-ALONG RIGHTS.\n\nPrior to one year from the Effective Date, a Party may not sel"
+      },
+      {
+        "doc_id": "cuad/SUCAMPOPHARMACEUTICALS,INC_11_04_2015-EX-10.2-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 60943,
+        "end": 62272,
+        "text": "or release a Person of any liability in connection with any fraudulent or criminal acts committed by such Person, its Affiliates or their respective representatives, and nothing herein shall provide any indemnification to or release of any Person committing such fraudulent or criminal acts.\n\n22\n\n\n\n\n\nSection 8.13 Third-party Beneficiaries. It is expressly agreed by the Parties that the Lenders shall be third party beneficiaries of Section 4.09, Section 6.03, Section 8.02(b), Section 8.04, Section"
+      },
+      {
+        "doc_id": "cuad/FLOTEKINDUSTRIESINCCN_05_09_2019-EX-10.1-SUPPLY AGREEMENT.txt",
+        "start": 18043,
+        "end": 19355,
+        "text": "intentions of all parties.\n\n29. Multiple Counterparts. This Agreement may be executed in multiple counterparts, each of which shall be deemed an original.\n\n30. Waiver. Any waiver by either party to be enforceable must be in writing and no waiver by either party shall constitute a continuing waiver.\n\n31. Cross References. References in this Agreement to Articles, Sections, Exhibits, or Schedules shall be deemed to be references to Articles, Sections, Exhibits, and Schedules of this Agreement unle"
+      }
+    ]
+  },
+  {
+    "query": "Consider the Service Agreement between BicycleTX Ltd and Nigel Crockett for Chief Business Officer Position; How is intellectual property ownership assigned in this contract?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+      "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+      "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 0,
+        "end": 1413,
+        "text": "Exhibit 10.11\n\nDATED 26 September 2019\n\nBicycleTX Ltd\n\nand\n\nNigel Crockett\n\n___________________________________________________\n\nSERVICE AGREEMENT\n\n___________________________________________________\n\n\n\n\n\nTHIS AGREEMENT is made on 26 September 2019\n\nBETWEEN:\n\n(1) BICYCLETX LIMITED a company incorporated under the laws of England and Wales (Company Number 11036101) whose registered office is at Building 900 Babraham Research Campus, Babraham, Cambridgeshire, CB22 3AT, United Kingdom (the \"Company"
+      },
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 56466,
+        "end": 57041,
+        "text": "or\n\n(d) obtains Control of BTL in any other way, including but not limited to by way of a merger.\n\n19\n\n\n\n\n\nTHIS AGREEMENT has been executed and delivered as a deed by or on behalf of the parties on the date written at the top of page 1.\n\nExecuted as a Deed by BICYCLETX LIMITED acting by a director:\n\n/s/ Kevin Lee (Director) in the presence of: /s/ Phil Jeffrey Witness Name: Phil Jeffrey Witness Address:\n\n20\n\n\n\n\n\nExecuted as a Deed by NIGEL CROCKETT:\n\n/s/ Nigel Crockett (Nigel Crockett) in the pr"
+      },
+      {
+        "doc_id": "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 12632,
+        "end": 14232,
+        "text": "ain the financial records relating to all payments owed and/or paid under this Agreement for a period of six  years from the date such payment obligation arose.     4.6 Purchase of Rubicon Shares. This Agreement is conditional upon ISA and Rubicon entering into the Share Subscription Agreement.\n\n\n\n\n\n5. INTELLECTUAL PROPERTY.     5.1 ISA's Intellectual Property. As between ISA and Rubicon, all right, title and interest in and to Intellectual Property which is created  by or provided by ISA, inclu"
+      },
+      {
+        "doc_id": "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 17832,
+        "end": 19432,
+        "text": " other persons or entities will by  virtue of this Agreement acquire any ownership interest in such Intellectual Property, or the Intellectual Property rights inherent in or appurtenant  to any of the foregoing, or any associated goodwill and that its rights thereunder are strictly limited to those specifically granted in this  Agreement. ISA shall not contest ownership by Rubicon of any of the foregoing. No license, release or other right is granted by implication,  estoppel or otherwise by Rub"
+      },
+      {
+        "doc_id": "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 16532,
+        "end": 18132,
+        "text": "ights to the Works. During the Term and continuing thereafter, Rubicon does hereby agree to take all such further reasonable actions on  its own behalf and with respect to its employees, contractors, consultants and agents, including without limitation, the execution and delivery of  copyright applications, patent applications, declarations, oaths, formal assignments, assignments of priority rights, and powers of attorney, which  ISA may deem necessary or desirable in order to protect its rights"
+      }
+    ]
+  },
+  {
+    "query": "Consider the Cooperation Agreement between HPIL ENERGYTECH Inc. and GINARES GROUP AG for Renewable Energy Projects; What is the governing law for this contract?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 3175,
+        "end": 4775,
+        "text": "Captions..................................................................................................................................... 8 23. Entire Agreement....................................................................................................................... 8         1\n\n\n\n\n\n    COOPERATION AGREEMENT   THIS COOPERATION AGREEMENT (\"Agreement\") is signed this 5th day of January, 2015 (the \"Closing Date\"), by and between HPIL ENERGYTECH Inc., a Nevada (USA) corporation (her"
+      },
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 0,
+        "end": 1600,
+        "text": "COOPERATION AGREEMENT     made by and between     HPIL ENERGYTECH Inc.   and   GINARES GROUP AG     January 5, 2015\n\n\n\n\n\n\n\n    Table of Contents       1. Term........................................................................................................................................... 2 2. Goals And Objectives................................................................................................................ 2 3. Obligations Of The Parties................................."
+      },
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 4475,
+        "end": 6044,
+        "text": "ternational Swiss holding corporation that provides global and independent renewable energy solutions, in particular related to its NCT technology (Natural Conversion Technology), a catalytic conversion compression to convert general organic waste (MSW - Municipal Solid Waste) and all kinds of biomass into liquid fuel energy (such as kerosene and/or diesel) as well as the further production of electricity, that it has an energy efficiency rate and no toxic chemical byproducts.   D. GINARES opera"
+      },
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 18488,
+        "end": 20008,
+        "text": " without substantive effect.   23. Entire Agreement   This Agreement constitutes the entire agreement among the Parties pertaining to the subject matter hereof and supersedes all prior and contemporaneous agreements, understandings, negotiations and discussions, whether oral or written, of the Parties and there are no warranties, representations or other agreements between the Parties in connection with the subject matter hereof except as set forth specifically herein. No amendment, supplement, "
+      },
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 12700,
+        "end": 14300,
+        "text": "shall be the rights to indemnification set forth in this Section 10.   11. Payment Of Expenses   Each of the Parties shall pay their own expenses associated with this Agreement and the transactions contemplated herein.   12. Approval Of Counsel   All instruments or documents to be delivered by any Party to this Agreement shall be in  form and content reasonably satisfactory to the counsel for the Party receiving such instrument or document.   5\n\n\n\n\n\n    13. Notices   All notices and other commun"
+      }
+    ]
+  },
+  {
+    "query": "Consider the Cooperation Agreement between HPIL ENERGYTECH Inc. and GINARES GROUP AG for Renewable Energy Projects; Is there an anti-assignment clause in this contract?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 3175,
+        "end": 4775,
+        "text": "Captions..................................................................................................................................... 8 23. Entire Agreement....................................................................................................................... 8         1\n\n\n\n\n\n    COOPERATION AGREEMENT   THIS COOPERATION AGREEMENT (\"Agreement\") is signed this 5th day of January, 2015 (the \"Closing Date\"), by and between HPIL ENERGYTECH Inc., a Nevada (USA) corporation (her"
+      },
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 0,
+        "end": 1600,
+        "text": "COOPERATION AGREEMENT     made by and between     HPIL ENERGYTECH Inc.   and   GINARES GROUP AG     January 5, 2015\n\n\n\n\n\n\n\n    Table of Contents       1. Term........................................................................................................................................... 2 2. Goals And Objectives................................................................................................................ 2 3. Obligations Of The Parties................................."
+      },
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 4475,
+        "end": 6044,
+        "text": "ternational Swiss holding corporation that provides global and independent renewable energy solutions, in particular related to its NCT technology (Natural Conversion Technology), a catalytic conversion compression to convert general organic waste (MSW - Municipal Solid Waste) and all kinds of biomass into liquid fuel energy (such as kerosene and/or diesel) as well as the further production of electricity, that it has an energy efficiency rate and no toxic chemical byproducts.   D. GINARES opera"
+      },
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 18488,
+        "end": 20008,
+        "text": " without substantive effect.   23. Entire Agreement   This Agreement constitutes the entire agreement among the Parties pertaining to the subject matter hereof and supersedes all prior and contemporaneous agreements, understandings, negotiations and discussions, whether oral or written, of the Parties and there are no warranties, representations or other agreements between the Parties in connection with the subject matter hereof except as set forth specifically herein. No amendment, supplement, "
+      },
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 12700,
+        "end": 14300,
+        "text": "shall be the rights to indemnification set forth in this Section 10.   11. Payment Of Expenses   Each of the Parties shall pay their own expenses associated with this Agreement and the transactions contemplated herein.   12. Approval Of Counsel   All instruments or documents to be delivered by any Party to this Agreement shall be in  form and content reasonably satisfactory to the counsel for the Party receiving such instrument or document.   5\n\n\n\n\n\n    13. Notices   All notices and other commun"
+      }
+    ]
+  },
+  {
+    "query": "Consider the Sponsorship Agreement between Jacksonville Jaguars, LLC and The ARC Group, Inc.; What licenses are granted under this contract?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+      "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+      "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+      "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+      "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 0,
+        "end": 1600,
+        "text": "Exhibit 10.1   JACKSONVILLE JAGUARS SPONSORSHIP AGREEMENT   This Sponsorship Agreement (this \"Agreement\") is entered into as of November 27, 2017 (the \"Execution Date\") by and between Jacksonville Jaguars, LLC, a Delaware limited liability company (\"Club\"), and The ARC Group, Inc., a Florida corporation (owner and operator of Dick's Wings and Grill) (\"Sponsor\"). This Agreement consists of this Sponsorship Agreement and Exhibits A and B hereto, each of which is incorporated into and forms a part "
+      },
+      {
+        "doc_id": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 8740,
+        "end": 9555,
+        "text": "authorized representatives of Sponsor and Club.   8. Counterparts. This Agreement may be executed in any number of counterparts, each of which will be deemed an original, but all of which taken together shall constitute one single agreement. Delivery of an executed counterpart by electronic transmission shall have the same effect as delivery of an original ink counterpart.   IN WITNESS WHEREOF, each party has caused this Agreement to be executed in Jacksonville, Florida, by its duly authorized r"
+      },
+      {
+        "doc_id": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 6140,
+        "end": 7740,
+        "text": " such Playoff Games; provided that Club's failure to deliver such an invoice shall not, and not be construed to, relieve Sponsor of any obligation to pay any amount owed to Club.   4. Definitions. Capitalized terms used but not otherwise defined herein have the respective meanings given to them on Exhibit B (as it may be amended or otherwise modified from time to time, the \"Terms and Conditions\").   5. Standard Terms and Conditions. Except as expressly set forth in this Sponsorship Agreement or "
+      },
+      {
+        "doc_id": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 9255,
+        "end": 10855,
+        "text": "ith the intent that it be binding as of the Execution Date.   CLUB:  SPONSOR: JACKSONVILLE JAGUARS, LLC  The ARC Group, Inc.     By: /s/ Scott Massey  By: /s/ Richard W. Akam  Scott Massey   Rick Akam  SVP, Corporate Partnerships   CEO\n\n   Page 2 of 4\n\nSource: ARC GROUP, INC., 8-K, 12/11/2017\n\n\n\n\n\n\n\n  EXHIBIT A   Sponsorship Benefits   For purposes of clarity, the Benefits set forth on this Exhibit A are subject to the terms and conditions of this Agreement, including the Club Approval Rights un"
+      },
+      {
+        "doc_id": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 7440,
+        "end": 9040,
+        "text": "nville Jaguars, LLC  6327-4 Argyle Forest Blvd.   1 EverBank Field Drive  Jacksonville, Florida 32244   Jacksonville, Florida 32202  Attn: Rick Akam   Attn: Scott Massey  Title: CEO   Senior Vice President, Corporate Partnerships  Email: rick@dickswings.com   masseys@nfl.jaguars.com   With a copy to: _________________________  With a copy to: Jacksonville Jaguars, LLC  _________________________   1 EverBank Field Drive  _________________________   Jacksonville, Florida 32202  Attn: _____________"
+      }
+    ]
+  },
+  {
+    "query": "Consider the Service Agreement between Theravance Biopharma UK Limited and Brett Haumann; What is the expiration date of this contract?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+      "cuad/KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTION AGREEMENT.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+        "start": 0,
+        "end": 1600,
+        "text": "Exhibit 10.2\n\nSTRICTLY PRIVATE AND CONFIDENTIAL\n\n1 April, 2020\n\nTHERAVANCE BIOPHARMA UK LIMITED and BRETT HAUMANN\n\nSERVICE AGREEMENT\n\n\n\n\n\nTHIS AGREEMENT is entered into between the parties on 1 April, 2020.\n\nPARTIES (1) Theravance Biopharma UK Limited is a company registered in the United Kingdom and whose registered office is at 12 New Fetter Lane, London, United Kingdom, EC4A 1JP (the \"Employer\"); and (2) Brett Haumann of [address removed] (the \"Executive\").\n\nAGREED TERMS 1. Definitions 1.1 Th"
+      },
+      {
+        "doc_id": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+        "start": 31494,
+        "end": 32861,
+        "text": "nt. 24.9 This Agreement may be executed in any number of counterparts, each of which, when executed and delivered, shall be an original, and all the counterparts together shall constitute one and the same agreement. 24.10 The Contracts (Rights of Third Parties) Act 1999 shall only apply to this Agreement in relation to any Group Company. No person other than the parties to this Agreement and any Group Company shall have any rights under it and it will not be enforceable by any person other than "
+      },
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 55172,
+        "end": 56766,
+        "text": "States Internal Revenue Code of 1986, as amended and the regulations and other guidance thereunder and any state law of similar effect, and any exercise of authority in conjunction with a determination of whether a Change in Control is a \"change in control event\" is consistent with such regulation.\n\nControl: shall have the meaning given to that word by Section 719 of the UK Income Tax (Earnings and Pensions) Act 2003 and \"Controlled\" shall be construed accordingly.\n\nSale: the sale of all or subs"
+      },
+      {
+        "doc_id": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 0,
+        "end": 1600,
+        "text": "Exhibit 10.1   JACKSONVILLE JAGUARS SPONSORSHIP AGREEMENT   This Sponsorship Agreement (this \"Agreement\") is entered into as of November 27, 2017 (the \"Execution Date\") by and between Jacksonville Jaguars, LLC, a Delaware limited liability company (\"Club\"), and The ARC Group, Inc., a Florida corporation (owner and operator of Dick's Wings and Grill) (\"Sponsor\"). This Agreement consists of this Sponsorship Agreement and Exhibits A and B hereto, each of which is incorporated into and forms a part "
+      },
+      {
+        "doc_id": "cuad/KINGPHARMACEUTICALSINC_08_09_2006-EX-10.1-PROMOTION AGREEMENT.txt",
+        "start": 118267,
+        "end": 119271,
+        "text": "sk is discovered.\n\nSection 8.7 Effect of Termination.\n\nPortions of this Exhibit were omitted and have been filed separately with the Secretary of the Commission pursuant to the Company's application requesting confidential treatment under Rule 24b-2 of the Securities Exchange Act of 1934.\n\n34\n\n\n\n\n\n\n\n(a) No additional payment obligations arising under Article VII hereof shall accrue after the date of expiration or termination of this Agreement except as set forth in Section 7.4; provided, however"
+      }
+    ]
+  },
+  {
+    "query": "Consider the Service Agreement between Theravance Biopharma UK Limited and Brett Haumann; Is there a clause preventing the solicitation of employees in this contract?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+      "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+      "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+      "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+        "start": 0,
+        "end": 1600,
+        "text": "Exhibit 10.2\n\nSTRICTLY PRIVATE AND CONFIDENTIAL\n\n1 April, 2020\n\nTHERAVANCE BIOPHARMA UK LIMITED and BRETT HAUMANN\n\nSERVICE AGREEMENT\n\n\n\n\n\nTHIS AGREEMENT is entered into between the parties on 1 April, 2020.\n\nPARTIES (1) Theravance Biopharma UK Limited is a company registered in the United Kingdom and whose registered office is at 12 New Fetter Lane, London, United Kingdom, EC4A 1JP (the \"Employer\"); and (2) Brett Haumann of [address removed] (the \"Executive\").\n\nAGREED TERMS 1. Definitions 1.1 Th"
+      },
+      {
+        "doc_id": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+        "start": 31494,
+        "end": 32861,
+        "text": "nt. 24.9 This Agreement may be executed in any number of counterparts, each of which, when executed and delivered, shall be an original, and all the counterparts together shall constitute one and the same agreement. 24.10 The Contracts (Rights of Third Parties) Act 1999 shall only apply to this Agreement in relation to any Group Company. No person other than the parties to this Agreement and any Group Company shall have any rights under it and it will not be enforceable by any person other than "
+      },
+      {
+        "doc_id": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 55172,
+        "end": 56766,
+        "text": "States Internal Revenue Code of 1986, as amended and the regulations and other guidance thereunder and any state law of similar effect, and any exercise of authority in conjunction with a determination of whether a Change in Control is a \"change in control event\" is consistent with such regulation.\n\nControl: shall have the meaning given to that word by Section 719 of the UK Income Tax (Earnings and Pensions) Act 2003 and \"Controlled\" shall be construed accordingly.\n\nSale: the sale of all or subs"
+      },
+      {
+        "doc_id": "cuad/HPILHOLDING_01_07_2015-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 7044,
+        "end": 8044,
+        "text": " The nature of relationship between the Parties is that of two independent contractor's working together to achieve common goals. There is no payment or compensation contemplated under this Agreement.   6. Closing   The closing of this Agreement shall take place at the offices of HPIL ET, 7075 Gratiot Road, Suite One, Saginaw, Michigan 48609 (United States of America), or other mutually agreed upon location.   7. Representations, Warranties, And Covenants Of GINARES   GINARES hereby represents, "
+      },
+      {
+        "doc_id": "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 35615,
+        "end": 36687,
+        "text": "sonably withheld, conditioned or  delayed.     10.6 Essential Part of Bargain. The Parties acknowledge that the disclaimers and limitations set forth in this Section 10 are an essential  element of this Agreement between the Parties and that the Parties would not have entered into this Agreement without such disclaimers and  limitations.     11. MISCELLANEOUS.     11.1 Governing Law and Jurisdiction. This Agreement shall be governed by and interpreted under the laws of the State of Florida, USA,"
+      }
+    ]
+  },
+  {
+    "query": "Consider the Service Agreement between Theravance Biopharma UK Limited and Brett Haumann; Can this contract be terminated for convenience, and under what conditions?",
+    "recall_at_5": 0.0,
+    "precision_at_5": 0.0,
+    "f1_at_5": 0.0,
+    "gold_documents": [
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt"
+    ],
+    "retrieved_documents": [
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+      "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+      "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+      "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+      "cuad/PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.txt"
+    ],
+    "retrieved_passages": [
+      {
+        "doc_id": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+        "start": 0,
+        "end": 1600,
+        "text": "Exhibit 10.2\n\nSTRICTLY PRIVATE AND CONFIDENTIAL\n\n1 April, 2020\n\nTHERAVANCE BIOPHARMA UK LIMITED and BRETT HAUMANN\n\nSERVICE AGREEMENT\n\n\n\n\n\nTHIS AGREEMENT is entered into between the parties on 1 April, 2020.\n\nPARTIES (1) Theravance Biopharma UK Limited is a company registered in the United Kingdom and whose registered office is at 12 New Fetter Lane, London, United Kingdom, EC4A 1JP (the \"Employer\"); and (2) Brett Haumann of [address removed] (the \"Executive\").\n\nAGREED TERMS 1. Definitions 1.1 Th"
+      },
+      {
+        "doc_id": "cuad/THERAVANCEBIOPHARMA,INC_05_08_2020-EX-10.2-SERVICE AGREEMENT.txt",
+        "start": 31494,
+        "end": 32861,
+        "text": "nt. 24.9 This Agreement may be executed in any number of counterparts, each of which, when executed and delivered, shall be an original, and all the counterparts together shall constitute one and the same agreement. 24.10 The Contracts (Rights of Third Parties) Act 1999 shall only apply to this Agreement in relation to any Group Company. No person other than the parties to this Agreement and any Group Company shall have any rights under it and it will not be enforceable by any person other than "
+      },
+      {
+        "doc_id": "cuad/DUOSTECHNOLOGIESGROUP,INC_04_21_2009-EX-10.1-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 12632,
+        "end": 14232,
+        "text": "ain the financial records relating to all payments owed and/or paid under this Agreement for a period of six  years from the date such payment obligation arose.     4.6 Purchase of Rubicon Shares. This Agreement is conditional upon ISA and Rubicon entering into the Share Subscription Agreement.\n\n\n\n\n\n5. INTELLECTUAL PROPERTY.     5.1 ISA's Intellectual Property. As between ISA and Rubicon, all right, title and interest in and to Intellectual Property which is created  by or provided by ISA, inclu"
+      },
+      {
+        "doc_id": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+        "start": 2726,
+        "end": 4283,
+        "text": " are beyond the control of the Parties;                                                                             vii)     Any loss, hijacking, government seizure or diversion.\n\n1.2     All references to currency in this Agreement shall be to Canadian         currency, unless otherwise indicated.\n\n1.3     All references to days in this Agreement are references to calendar days         unless the reference is to business days, in which case business days          shall be interpreted as busines"
+      },
+      {
+        "doc_id": "cuad/PapaJohnsInternationalInc_20190617_8-K_EX-10.1_11707365_EX-10.1_Endorsement Agreement.txt",
+        "start": 49259,
+        "end": 50711,
+        "text": "Payment for such Contract Year by a fraction, the numerator of which is the number of days elapsed in such Contract Year and the denominator of which is the total number of days in such Contract Year, and such amounts shall be immediately due as of the effective date of termination and paid to ABG.\n\nb. Termination by ABG. If this Agreement is terminated by ABG for any of the reasons provided in Section 7.B. above, then any and all unpaid amounts under this Agreement for the eighteen (18) months "
+      }
+    ]
+  }
+]

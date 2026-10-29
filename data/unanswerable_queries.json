@@ -1,0 +1,218 @@
+[
+  {
+    "id": "unans-01",
+    "query": "What is the annual salary of the company's chief executive officer?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-02",
+    "query": "What is the employee's home address?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-03",
+    "query": "What is the contract signatory's personal phone number?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-04",
+    "query": "What is the weather policy for outdoor filming next Tuesday?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-05",
+    "query": "What is the budget for the next season if it has not been stated?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-06",
+    "query": "What are the streaming platform's current monthly subscriber numbers?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-07",
+    "query": "What is the audience rating of the show in Brazil?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-08",
+    "query": "What is the name of the actor's personal accountant?",
+    "answerable": false,
+    "split": "test"
+  },
+  {
+    "id": "unans-09",
+    "query": "What is the exact production schedule for an unrelated future series?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-10",
+    "query": "What is the market share of the distributor this quarter?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-11",
+    "query": "What is the password for the production team's shared account?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-12",
+    "query": "What is the bank account PIN of the licensee?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-13",
+    "query": "What is the private medical history of the director?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-14",
+    "query": "What is the social security number of a cast member?",
+    "answerable": false,
+    "split": "test"
+  },
+  {
+    "id": "unans-15",
+    "query": "What is the current exchange rate used by the finance department?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-16",
+    "query": "What is the current price of advertising inventory on a third-party website?",
+    "answerable": false,
+    "split": "test"
+  },
+  {
+    "id": "unans-17",
+    "query": "What are the confidential terms of a different agreement not in this corpus?",
+    "answerable": false,
+    "split": "test"
+  },
+  {
+    "id": "unans-18",
+    "query": "What is the production team's live location right now?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-19",
+    "query": "What is the personal email password of the producer?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-20",
+    "query": "What is the number of followers on the actor's private social media account?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-21",
+    "query": "What is the result of an unannounced internal employee performance review?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-22",
+    "query": "What is the exact cost of a future marketing campaign not mentioned here?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-23",
+    "query": "What is the company's current stock price?",
+    "answerable": false,
+    "split": "test"
+  },
+  {
+    "id": "unans-24",
+    "query": "What is the current weather at the filming location?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-25",
+    "query": "What is the personal home address of the contract's witness?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-26",
+    "query": "What is the private bank balance of the content creator?",
+    "answerable": false,
+    "split": "test"
+  },
+  {
+    "id": "unans-27",
+    "query": "What is the full text of an agreement that is not included in the corpus?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-28",
+    "query": "What is the current availability of a cinema screen in Mumbai?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-29",
+    "query": "What is the internal API key used by the streaming service?",
+    "answerable": false,
+    "split": "test"
+  },
+  {
+    "id": "unans-30",
+    "query": "What is the current salary of every employee in the company?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-31",
+    "query": "What is the exact runtime of a future episode that has not been produced?",
+    "answerable": false,
+    "split": "test"
+  },
+  {
+    "id": "unans-32",
+    "query": "What is the personal passport number of the director?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-33",
+    "query": "What is the latest view count on a platform outside the agreement?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-34",
+    "query": "What are the terms of a verbal promise not recorded in the contract?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-35",
+    "query": "What is the precise location of a private company meeting?",
+    "answerable": false,
+    "split": "train"
+  },
+  {
+    "id": "unans-36",
+    "query": "What is the content of a deleted contract that is not in the indexed corpus?",
+    "answerable": false,
+    "split": "train"
+  }
+]

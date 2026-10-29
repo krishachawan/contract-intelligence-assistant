@@ -6,3 +6,8 @@ __pycache__/
 !.env.example
 *.pyc
 *.bak
+
+# Local data and backups
+data/raw/
+data/*backup*
+artifacts/*backup*

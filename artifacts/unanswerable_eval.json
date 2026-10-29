@@ -1,0 +1,29 @@
+{
+  "question_count": 36,
+  "abstained": 0,
+  "did_not_abstain": 36,
+  "abstention_rate": 0.0,
+  "config": {
+    "method": "bm25",
+    "chunk_chars": 1200,
+    "overlap_chars": 200,
+    "top_k": 5,
+    "min_score": 0.0,
+    "tokenizer": "simple"
+  },
+  "by_split": {
+    "test": {
+      "count": 8,
+      "abstained": 0,
+      "did_not_abstain": 8,
+      "abstention_rate": 0.0
+    },
+    "train": {
+      "count": 28,
+      "abstained": 0,
+      "did_not_abstain": 28,
+      "abstention_rate": 0.0
+    }
+  },
+  "warning": "Abstention is defined as returning zero passages under the configured score threshold. This does not verify semantic correctness of the retrieved passages."
+}

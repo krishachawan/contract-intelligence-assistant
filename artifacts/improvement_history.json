@@ -1,0 +1,47 @@
+{
+  "selection_metric": "training mean F1@5",
+  "iterations": [
+    {
+      "iteration": "baseline",
+      "config": "config/baseline.yaml",
+      "training_queries": 140,
+      "mean_f1_at_5": 0.023772718253985164
+    },
+    {
+      "iteration": "experiment1",
+      "config": "config/experiment1.yaml",
+      "training_queries": 140,
+      "mean_f1_at_5": 0.019658174255879065
+    },
+    {
+      "iteration": "experiment2",
+      "config": "config/experiment2.yaml",
+      "training_queries": 140,
+      "mean_f1_at_5": 0.03225520624581219
+    },
+    {
+      "iteration": "experiment3",
+      "config": "config/experiment3.yaml",
+      "training_queries": 140,
+      "mean_f1_at_5": 0.02934244305416783
+    },
+    {
+      "iteration": "experiment4",
+      "config": "config/experiment4.yaml",
+      "training_queries": 140,
+      "mean_f1_at_5": 0.014336556107977572
+    },
+    {
+      "iteration": "experiment5",
+      "config": "config/experiment5.yaml",
+      "training_queries": 140,
+      "mean_f1_at_5": 0.034210679371472964
+    }
+  ],
+  "selected": {
+    "iteration": "experiment5",
+    "config": "config/experiment5.yaml",
+    "training_queries": 140,
+    "mean_f1_at_5": 0.034210679371472964
+  }
+}
