@@ -54,8 +54,4 @@ Run the commands above from the repository root. `evaluate.py` writes `artifacts
 
 ## AI tool usage
 
-Disclose the AI coding assistance used to draft or review code, and explain which components you tested and modified yourself. Be prepared to explain all code during the debrief.
-
-## Security and data
-
-Do not commit API keys, credentials, or private data. Do not commit the assignment PDF. Check the dataset's license and terms before redistributing corpus files.
+I have used ChatGPT as an AI-assisted coding tool during the development of this project. However, I independently understood the overall system architecture, including the different components, their responsibilities, and how they interact with each other. I also reviewed the generated code, made necessary modifications, tested the implementation, and ensured that I understood the functionality of the code used in the project. I can explain the design decisions, implementation, and technical aspects of the system.
